@@ -2,4 +2,9 @@ node_modules
 package-lock.json
 
 public/*
-public/!.gitkeep
+
+database.db
+database.db-shm
+database.db-wal
+
+!.gitkeep
