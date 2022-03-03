@@ -1,1 +1,129 @@
-{"_type":"export","__export_format":4,"__export_date":"2022-02-18T12:10:46.475Z","__export_source":"insomnia.desktop.app:v2021.7.2","resources":[{"_id":"req_1f2e5b24bbb9459fb0f64cf144b4136a","parentId":"wrk_e92879d9439c4e0abcaf4d104d43a383","modified":1645186199549,"created":1645186188600,"url":"{{ _.BASE_URL }}og/image/OG-Image_1-Yamaha-P45-Digital-Piano-5","name":"Get og Image","description":"","method":"GET","body":{},"parameters":[],"headers":[],"authentication":{},"metaSortKey":-1645186188600,"isPrivate":false,"settingStoreCookies":true,"settingSendCookies":true,"settingDisableRenderRequestBody":false,"settingEncodeUrl":true,"settingRebuildPath":true,"settingFollowRedirects":"global","_type":"request"},{"_id":"wrk_e92879d9439c4e0abcaf4d104d43a383","parentId":null,"modified":1645173995525,"created":1645173995525,"name":"OG_IMAGE_SERVICE","description":"","scope":"collection","_type":"workspace"},{"_id":"req_b411f1a1568e48409218448b019e4283","parentId":"wrk_e92879d9439c4e0abcaf4d104d43a383","modified":1645185997307,"created":1645174001556,"url":"{{ _.BASE_URL }}admin/create","name":"New","description":"","method":"POST","body":{"mimeType":"application/json","text":"{\n\t\t\"storeId\": \"123123-123123-1231231-123123-aaa\",\n\t\t\"productName\": \"Yamaha P45 Digital Piano\",\n\t\t\"featuredImage\": \"https://images.tokopedia.net/img/cache/500-square/VqbcmM/2021/11/19/2a8f2828-bacb-4201-b24e-d744919badfd.jpg.webp?ect=4g\",\n\t\"description\":\"Digital Piano Yamaha P-45 + XStand + Kursi 100% Baru. Original. Garansi Resmi Yamaha Indonesia 1 Tahun SEBELUM ORDER HARAP PERHATIKAN KETERANGAN VARIAN! P-45 adalah produk digital piano 88 Key Graded Hammer, Entry Level paling murah dari merk Yamaha.\",\n\t\t\"price\": 3200000,\n\t\t\"rating\": 5\n}"},"parameters":[],"headers":[{"name":"Content-Type","value":"application/json","id":"pair_27e1aac70c26431ba03e1540f8165e2e"},{"name":"x-api-key","value":"dummy","id":"pair_f64ce8d81d1946018e241f785fe89f91"}],"authentication":{},"metaSortKey":-1645174001556,"isPrivate":false,"settingStoreCookies":true,"settingSendCookies":true,"settingDisableRenderRequestBody":false,"settingEncodeUrl":true,"settingRebuildPath":true,"settingFollowRedirects":"global","_type":"request"},{"_id":"env_f19cd5db012d2499e24b7b48876844cedb5397f9","parentId":"wrk_e92879d9439c4e0abcaf4d104d43a383","modified":1645174007122,"created":1645173995535,"name":"Base Environment","data":{},"dataPropertyOrder":{},"color":null,"isPrivate":false,"metaSortKey":1645173995535,"_type":"environment"},{"_id":"jar_f19cd5db012d2499e24b7b48876844cedb5397f9","parentId":"wrk_e92879d9439c4e0abcaf4d104d43a383","modified":1645173995539,"created":1645173995539,"name":"Default Jar","cookies":[],"_type":"cookie_jar"},{"_id":"spc_18597b98cbc44d4883fa70ceb3b29f07","parentId":"wrk_e92879d9439c4e0abcaf4d104d43a383","modified":1645173995528,"created":1645173995528,"fileName":"OG_IMAGE_SERVICE","contents":"","contentType":"yaml","_type":"api_spec"},{"_id":"env_8958da2947a749d683ab29b85329a1e0","parentId":"env_f19cd5db012d2499e24b7b48876844cedb5397f9","modified":1645174037271,"created":1645174009945,"name":"base","data":{"BASE_URL":"http://localhost:3000/"},"dataPropertyOrder":{"&":["BASE_URL"]},"color":"#5c6fff","isPrivate":false,"metaSortKey":1645174009945,"_type":"environment"}]}
+{
+    "_type": "export",
+    "__export_format": 4,
+    "__export_date": "2022-02-18T12:10:46.475Z",
+    "__export_source": "insomnia.desktop.app:v2021.7.2",
+    "resources": [
+        {
+            "_id": "req_1f2e5b24bbb9459fb0f64cf144b4136a",
+            "parentId": "wrk_e92879d9439c4e0abcaf4d104d43a383",
+            "modified": 1645186199549,
+            "created": 1645186188600,
+            "url": "{{ _.BASE_URL }}og/image/OG-Image_1-Yamaha-P45-Digital-Piano-5",
+            "name": "Get og Image",
+            "description": "",
+            "method": "GET",
+            "body": {},
+            "parameters": [],
+            "headers": [],
+            "authentication": {},
+            "metaSortKey": -1645186188600,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "wrk_e92879d9439c4e0abcaf4d104d43a383",
+            "parentId": null,
+            "modified": 1645173995525,
+            "created": 1645173995525,
+            "name": "OG_IMAGE_SERVICE",
+            "description": "",
+            "scope": "collection",
+            "_type": "workspace"
+        },
+        {
+            "_id": "req_b411f1a1568e48409218448b019e4283",
+            "parentId": "wrk_e92879d9439c4e0abcaf4d104d43a383",
+            "modified": 1645185997307,
+            "created": 1645174001556,
+            "url": "{{ _.BASE_URL }}admin/create",
+            "name": "New",
+            "description": "",
+            "method": "POST",
+            "body": {
+                "mimeType": "application/json",
+                "text": "{\n\t\t\"storeId\": \"123123-123123-1231231-123123-aaa\",\n\t\t\"productName\": \"Yamaha P45 Digital Piano\",\n\t\t\"featuredImage\": \"https://images.tokopedia.net/img/cache/500-square/VqbcmM/2021/11/19/2a8f2828-bacb-4201-b24e-d744919badfd.jpg.webp?ect=4g\",\n\t\"description\":\"Digital Piano Yamaha P-45 + XStand + Kursi 100% Baru. Original. Garansi Resmi Yamaha Indonesia 1 Tahun SEBELUM ORDER HARAP PERHATIKAN KETERANGAN VARIAN! P-45 adalah produk digital piano 88 Key Graded Hammer, Entry Level paling murah dari merk Yamaha.\",\n\t\t\"price\": 3200000,\n\t\t\"rating\": 5\n}"
+            },
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json",
+                    "id": "pair_27e1aac70c26431ba03e1540f8165e2e"
+                },
+                {
+                    "name": "x-api-key",
+                    "value": "dummy",
+                    "id": "pair_f64ce8d81d1946018e241f785fe89f91"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1645174001556,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "env_f19cd5db012d2499e24b7b48876844cedb5397f9",
+            "parentId": "wrk_e92879d9439c4e0abcaf4d104d43a383",
+            "modified": 1645174007122,
+            "created": 1645173995535,
+            "name": "Base Environment",
+            "data": {},
+            "dataPropertyOrder": {},
+            "color": null,
+            "isPrivate": false,
+            "metaSortKey": 1645173995535,
+            "_type": "environment"
+        },
+        {
+            "_id": "jar_f19cd5db012d2499e24b7b48876844cedb5397f9",
+            "parentId": "wrk_e92879d9439c4e0abcaf4d104d43a383",
+            "modified": 1645173995539,
+            "created": 1645173995539,
+            "name": "Default Jar",
+            "cookies": [],
+            "_type": "cookie_jar"
+        },
+        {
+            "_id": "spc_18597b98cbc44d4883fa70ceb3b29f07",
+            "parentId": "wrk_e92879d9439c4e0abcaf4d104d43a383",
+            "modified": 1645173995528,
+            "created": 1645173995528,
+            "fileName": "OG_IMAGE_SERVICE",
+            "contents": "",
+            "contentType": "yaml",
+            "_type": "api_spec"
+        },
+        {
+            "_id": "env_8958da2947a749d683ab29b85329a1e0",
+            "parentId": "env_f19cd5db012d2499e24b7b48876844cedb5397f9",
+            "modified": 1645174037271,
+            "created": 1645174009945,
+            "name": "base",
+            "data": {
+                "BASE_URL": "http://localhost:3000/"
+            },
+            "dataPropertyOrder": {
+                "&": [
+                    "BASE_URL"
+                ]
+            },
+            "color": "#5c6fff",
+            "isPrivate": false,
+            "metaSortKey": 1645174009945,
+            "_type": "environment"
+        }
+    ]
+}

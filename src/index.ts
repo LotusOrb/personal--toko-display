@@ -40,11 +40,12 @@ class boot {
     }
 
     private bootScheduler(){
-        glob(path.join(__dirname,'..','public','*.{png,jpeg}'),(_,arrFile)=>{
-            arrFile.forEach((pt)=>{
-                fs.unlink(pt)
-            })
-        })
+        // Changes with cron for checking product stats
+        // glob(path.join(__dirname,'..','public','*.{png,jpeg}'),(_,arrFile)=>{
+        //     arrFile.forEach((pt)=>{
+        //         fs.unlink(pt)
+        //     })
+        // })
     }
 }
 new boot()

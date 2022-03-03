@@ -20,8 +20,10 @@ app.get('/og/image/:id',(req,res)=>{
         }
     })
 })
+app.get('/',express.static(path.join(__dirname,'../','../','../','poc')))
 
-app.use(apitokenMiddleware)
+
+// app.use(apitokenMiddleware)
 app.get('/admin', async (req: Request, res: Response) => {
     res.send('listproduct')
 })

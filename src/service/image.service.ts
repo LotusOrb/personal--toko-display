@@ -6,8 +6,8 @@ import { productEntity } from "../entity/product.entity";
 const generateNewImage = async (param?:productEntity) => {
     const template = await (await fs.readFile(path.join(__dirname, '../', '../', 'template/', 'template_one.ejs'))).toString()
     const browser = await puppeteer.launch({ args: ['--no-sandbox', '--disable-setuid-sandbox'],defaultViewport:{
-        width:1000,
-        height:400
+        width:1200,
+        height:600
     } });
     const page = await browser.newPage();
     await page.waitForNetworkIdle()
